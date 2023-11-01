@@ -19,7 +19,7 @@ fs.readFile('wallet.txt', 'utf8', (err, data) => {
             // Add a 2-second delay before fetching the next address
             setTimeout(() => {
                 fetchAddressWithDelay(index + 1);
-            }, 2000); // 2000 milliseconds = 2 seconds
+            }, 3000); // 3000 milliseconds = 3 seconds
         }
     }
 
